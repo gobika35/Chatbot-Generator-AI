@@ -1,0 +1,25 @@
+{
+  "bot_id": "8ba342ad-2b39-4b98-bc7c-477f5ddbbc23",
+  "business": {
+    "business_name": "Gobi Dental Clinic",
+    "business_type": "Healthcare",
+    "services": [
+      "Dental checkup",
+      "Root canal",
+      "Teeth cleaning"
+    ],
+    "language": "English",
+    "tone": "professional"
+  },
+  "system_prompt": "\nYou are a business chatbot for Gobi Dental Clinic.\nBusiness type: Healthcare\nServices: Dental checkup, Root canal, Teeth cleaning\nLanguage: English\nTone: professional\n\nRules:\n- Detect user intent clearly.\n- Once intent is detected, do NOT switch topic.\n- Collect required details to complete intent.\n- Never give unrelated answers.\n",
+  "intents": [
+    "appointment",
+    "inquiry",
+    "purchase"
+  ],
+  "theme": {
+    "primary_color": "#000000",
+    "background_color": "#ffffff",
+    "font": "sans-serif"
+  }
+}
